@@ -13,7 +13,7 @@ class BubbleSort{
     }
     public static void main(String[] args){
         int[] arr={99,82,2,10,77,1,45};
-        BubbleSort.bubbleSort(arr);
+        bubbleSort(arr);
         for(int item : arr){
             System.out.print(item+" ");
         }
